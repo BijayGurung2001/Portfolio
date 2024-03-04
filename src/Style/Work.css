@@ -15,6 +15,7 @@
     font-weight: 600;
 }
 .work button{
+    margin-bottom: 20px;
     background-color:#002B5B ;
     border: 1px solid #002B5B ;
     height: 50px;
@@ -25,7 +26,7 @@
     padding: 5px;
 }
 #button_icon{
-    margin-right:10px;
+    margin-right:30px;
 }
 .work button:hover{
     background-color:#3684d1 ;
@@ -39,6 +40,7 @@
 
 .project-container{
     margin: 10px 50px;
+    padding: 10px 90px;
     height: 200;
     width: 200;
     position: relative;

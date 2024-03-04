@@ -6,6 +6,7 @@ const Education = () => {
     <div className='education'>
       
  <div className='knowledge-section'>
+  
       <div className='Designer-section'>
           <spam id='icon_education'><FaPhotoVideo/></spam>
           <h1 id='education_head'>Designer</h1>
@@ -32,7 +33,7 @@ const Education = () => {
             <li>Webflow</li>
           </ul>
       </div>
-      <div className='Designer-section'>
+      <div className='frontend-section'>
       <spam id='icon_education'><FaDev/></spam>
           <h1 id='education_head'>Frontend Development</h1>
           <br/>

@@ -41,15 +41,23 @@
     overflow: hidden;
      
 }
-#resumebutton{
-    margin: 0 1.5rem;
-    height: max-content;
-    width: fit-content;
-    padding: 1rem;
-    font-size: 20px;
-    border-radius: 2rem;
 
+#resumebtmlink{
+  margin: 0 1.5rem;
+  height: max-content;
+  width: fit-content;
+  padding: 0.5rem;
+  font-size: 30px;
+  border-radius: 1rem;
+  color: black;
+  textDecoration: 'none'
 }
+#resumebtmlink:hover{
+  color: white;
+  background-color: #0b242e;
+  border: 1px solid white;
+  
+  }
 .intro-img img{
     height: 20rem;
     width: 20rem;
@@ -80,7 +88,11 @@
     width: 100px;
   }
 #resumebutton{
-  font-size: 14px;
+  padding: 5px;
+  height: 30px;
+  font-size: 16px;
+  color: black;
+ 
 }
   .tracking-out-contract {
     font-size: 1.5rem;

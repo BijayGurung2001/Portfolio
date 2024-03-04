@@ -1,32 +1,39 @@
 .education{
     margin-top: 50vh;
     padding-top: 2rem;
-height: 120vh;
+height: 90vh;
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: center;
+
 
     background-image: linear-gradient(#1A5F7A,#159895);
 }
 .knowledge-section{
 
  overflow-y: hidden;
-    height: 100vh;
+    height: 80vh;
           width: 75%;
     display: flex;
      justify-content: center;
    flex-direction: row;
+   border: 2px solid black;
     border-radius: 30px;
+
      background-color: white;
-   
+   justify-content: space-around;
 }
 .Designer-section{
-   border-left: 2px solid black;
+  
    width: 400px;
    padding-top: 30px;
  
   
+}
+.frontend-section{
+    padding: 20px 60px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 #icon_education{

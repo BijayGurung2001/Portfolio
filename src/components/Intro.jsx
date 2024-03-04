@@ -10,10 +10,8 @@ const Intro = () => {
           <h1>Hello, I'm</h1>
           <p className='tracking-out-contract '>Bijay Gurung</p>
           <p id='details'>A Full Stack web developer and content creator based in the Nepal.</p><br/>
-          <button id='resumebutton'><Link to="/bijay-cv.pdf">CV</Link></button>
-        
-
-        </div>
+        <Link to="/bijay-cv.pdf" id='resumebtmlink' >CV</Link>
+             </div>
         <div className='intro-img'>
             <img src={profile} alt='profilepic' id='intro-imgone'/>
         </div>

@@ -1,0 +1,39 @@
+.home{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.intro{
+    
+    height:  68.5vh;
+    z-index: -999;
+
+}
+.Education{
+    margin-top: 30vh;
+    z-index: 1;
+}
+
+.Work{
+    margin-top: 0px;
+  
+}
+
+.Message{
+    margin-top: 0px;
+   
+}
+.Footer{
+    margin-top: 0px;
+  
+}
+@media(max-width:786px){
+    .home{
+       display: flex;
+       flex-direction: column;
+    }
+    .education{
+        margin-top: 30vh;
+    }
+}

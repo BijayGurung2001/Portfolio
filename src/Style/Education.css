@@ -1,0 +1,79 @@
+.education{
+    margin-top: 50vh;
+    padding-top: 2rem;
+height: 120vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+    background-image: linear-gradient(#1A5F7A,#159895);
+}
+.knowledge-section{
+
+ overflow-y: hidden;
+    height: 100vh;
+          width: 75%;
+    display: flex;
+     justify-content: center;
+   flex-direction: row;
+    border-radius: 30px;
+     background-color: white;
+   
+}
+.Designer-section{
+   border-left: 2px solid black;
+   width: 400px;
+   padding-top: 30px;
+ 
+  
+}
+
+#icon_education{
+    background-color:rgb(93, 161, 238) ;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#education_head{
+    padding-top: 0px;
+    font-size: 30px;
+}
+#head-known{
+    top: 0;
+color: blue;
+}
+#head-tool{
+    margin-top: 0;
+    color: blue;
+}
+li{
+    list-style: none;
+}
+@media (max-width: 786px) {
+    .education{
+        margin-top: 1vh;
+        padding: 2vh ;
+        height: 80vh;
+        padding-top: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .knowledge-section{
+        width: fit-content;
+       
+    }
+    .Designer-section  {
+         width: 35%;
+    }
+    #education_head{
+        font-size: 15px;
+    }
+   .language-section{
+    width: 30%;
+   }
+  }
+  
+  

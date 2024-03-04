@@ -1,0 +1,138 @@
+.work{
+   
+    background-image: linear-gradient(#159895,#57C5B6);
+}
+.work h10{
+    margin-top: 100px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+
+}
+.work p{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.work button{
+    background-color:#002B5B ;
+    border: 1px solid #002B5B ;
+    height: 50px;
+    width: auto;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+#button_icon{
+    margin-right:10px;
+}
+.work button:hover{
+    background-color:#3684d1 ;
+    border: 1px solid 3684d1;
+    height: 50px;
+    width: auto;
+    border-radius: 30px;
+    color: white ;
+    font-size: 20px;
+}
+
+.project-container{
+    margin: 10px 50px;
+    height: 200;
+    width: 200;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+ 
+}
+.project-card{
+    margin: 20px;
+    height: 300px;
+    width: 400px;
+    opacity: 80%;
+    border: 1px solid black;
+    border-radius: 20px;
+    object-fit: cover;
+    overflow-y: hidden;
+    position: relative;
+}
+.project-img{
+
+    border-radius: 20px;
+    height: 300px;
+    width: 400px;
+    object-fit: fill;
+}
+.project-img:hover{
+    opacity: 10%;
+    border: 1px solid black;
+}
+.overlay-work{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out ;
+    display: flex;
+    flex-direction: column;
+}
+.overlay-work:hover{
+     background-color: white;
+    opacity: 200%;
+    transition: opacity 0.3s ease-in-out ;
+
+}
+@media (max-width:786px){
+    .work{
+        padding: 5rem;
+    }
+    .work p{
+        margin-top: 5px;
+        font-size: 16px;
+        
+    }
+    .project-container{
+       
+        margin: 2px 20px;
+        height: 200;
+        width: 200;
+        
+                display: grid;
+     padding: 0 20%;
+        grid-template-columns: repeat(2,1fr);
+     
+    }
+    .project-card{
+               height: 150px;
+        width: 150px;
+        opacity: 80%;
+       
+    }
+    .project-img{
+           height: 150px;
+        width: 150px;
+            }
+            #button_icon{
+                font-size: 12px;
+            }
+            .overlay-work h2{
+                font-size: 10px;
+            }
+            .overlay-work button{
+                
+                padding: 5px;
+                font-size: 10px;
+            }
+            .overlay-work button:hover{
+                font-size: 10px;
+            }
+}

@@ -1,0 +1,133 @@
+.footer{
+    padding-top: 10vh;
+    height: max-content;
+    color: whitesmoke;
+    background-image: linear-gradient(white, #1A5F7A);
+}
+.footer-contact{
+    top: 20px;
+    margin: 0px 100px;
+    height: 200px;
+    background-color: #73cfc3;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+   
+}
+.footer-contact h1{
+    margin-left: 5px;
+    font-size: 50px;
+}
+.footer-contact p{
+    font-size: 20px;
+}
+.footer-contact button{
+    height:50px ;
+    width: auto;
+    font-size: 30px;
+    color: #002B5B;
+    border: 2px solid #73cfc3;
+    border-radius: 20px;
+    background-color:white;
+}
+.footer-contact button:hover{
+    height:50px ;
+    width: auto;
+    color: white;
+    font-size: 32px;
+    color: #002B5B;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color:#73cfc3;
+}
+.footer img{
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.footer h2{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.footer ul{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.footer ul li{
+    height: 50px;
+    width: 50px;
+   
+    font-size: 30px;
+
+}
+a{
+    color: white;
+}
+.footer ul li:hover{
+    overflow-y: hidden;
+    height: 50px;
+    width: 50px;
+    font-size: 45px;
+
+}
+.footer p{
+    font-size: 20px;
+}
+#react{
+    font-size: 30px;
+    font-weight: bold;
+}
+@media (max-width:786px){
+
+    .footer p{
+        font-size: 12px;
+    }
+    .footer-contact{
+        top: 5px;
+        height: 120px;
+        margin: 0px 20px;
+        padding: 0 20px;
+           }
+           
+           .footer-contact button{
+            margin-right: 5px;
+            height:35px ;
+            width: 7rem;
+            font-size: 10px;
+           
+        }
+        .footer-contact button:hover{
+            font-size: 11px;
+        }
+        .footer-contact h1{
+            font-size: 30px;
+        }
+        .footer img{
+            height: 80px;
+            width: 80px;
+        }
+        .footer h2{
+            font-size: 20px;
+        }
+        .footer ul li{
+            height: 20px;
+            width: 20px;
+           
+            font-size: 20px;
+        
+        }
+        #name{
+            font-size: 20px;
+        }
+        #react{
+            font-size: 20px;
+                }
+}

@@ -1,7 +1,7 @@
 
 .intro{
    margin-top: 0;
-    padding: 70px 0 50px 0;
+   padding: 70px 0 160px 0;
     height: 68.5vh;
     width: 100%;
     background-image: linear-gradient(hsl(212, 100%, 18%),#1A5F7A);
@@ -17,11 +17,20 @@
 }
 .intro-details{
     width: fit-content;
-    margin: 20px 5px ;
+    margin: 20px ;
+    
 }
 .intro-details h1{
     font-style: italic;
-    font-size: 40px;
+   opacity: 1;
+    animation-name: textanimation;
+    animation-duration: 4s;
+}
+@keyframes textanimation {
+  0%   {font-size: 10px; opacity : 0.1}
+  25% {font-size: 20px; opacity : 0.1}
+  75% {font-size: 40px; opacity : 0.1}
+  100% {font-size: 50px; opacity: 1;}
 }
 
 .tracking-out-contract{
@@ -29,11 +38,24 @@
     font-size: 50px;
     font-weight: 600;
     color: white;
-   
+    opacity: 1;
+    animation-name: panimation;
+    animation-duration: 4s;
+}
+@keyframes panimation {
+  0%   {font-size: 5px; opacity : 0.1}
+  100% {font-size: 40px; opacity: 1;}
 }
 #details{
     font-style: italic;
     font-size: 30px;
+    opacity: 1;
+    animation-name: p1animation;
+    animation-duration: 4s;
+}
+@keyframes p1animation {
+  0%   {font-size: 5px; opacity : 0.1}
+  100% {font-size: 15px; opacity: 1;}
 }
 .intro-img{
     height: 50vh;

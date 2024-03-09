@@ -17,7 +17,7 @@ const Work = () => {
         
          <div className='overlay-work'>
           <h2 id='project-title'>{data.title}</h2>
-          <button >Visit Website</button>
+          <button > <a href='https://github.com/BijayGurung2001' target="_blank" rel="noopener noreferrer">Visit Website</a></button>
          </div>
          </div>
             </>

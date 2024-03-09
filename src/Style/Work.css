@@ -1,6 +1,9 @@
 .work{
    
     background-image: linear-gradient(#159895,#57C5B6);
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 .work h10{
     margin-top: 100px;
@@ -119,6 +122,9 @@
         opacity: 80%;
        
     }
+    #project-title{
+        font-size: 8px;
+    }
     .project-img{
            height: 150px;
         width: 150px;
@@ -130,11 +136,12 @@
                 font-size: 10px;
             }
             .overlay-work button{
-                
+                height: 20px;
                 padding: 5px;
                 font-size: 10px;
             }
             .overlay-work button:hover{
+                height: 21px;
                 font-size: 10px;
             }
 }

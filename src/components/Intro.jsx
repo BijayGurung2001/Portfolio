@@ -2,6 +2,7 @@ import React  from 'react'
 
 import '../Style/Intro.css'
 import profile from '../Images/bj.png'
+import png from '../Images/bijay-cv.pdf'
 const Intro = () => {
     
   return (
@@ -10,7 +11,7 @@ const Intro = () => {
           <h1>Hello, I'm</h1>
           <p className='tracking-out-contract '>Bijay Gurung</p>
           <p id='details'>A Full Stack web developer and content creator based in the Nepal.</p><br/>
-        <a >Resume</a>
+        <a id='resume' href={png}>Resume</a>
              </div>
         <div className='intro-img'>
             <img src={profile} alt='profilepic' id='intro-imgone'/>

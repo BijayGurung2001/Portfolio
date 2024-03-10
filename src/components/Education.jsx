@@ -1,85 +1,88 @@
 import React from 'react'
-import '../Style/Education.css'
+
 import {FaPhotoVideo, FaDev} from 'react-icons/fa'
 const Education = () => {
   return (
-    <div className='education'>
- 
- <div className='knowledge-section'>
+    <div className='education mt-80 pt-20 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-blue-800 to-teal-500'>
+    <div className='overflow-y-hidden h-[80%] md:h-full w-3/4 flex justify-center flex-row rounded-3xl bg-white'>
+      <div className='Designer-section border-l-2 border-black w-full md:w-1/3  pl-2 flex flex-col items-center justify-center'>
+        <span className='bg-blue-500 rounded p-2 h-8 md:h-10 text-white text-base md:text-lg'>
+          <FaPhotoVideo />
+        </span>
+        <h1 className='text-sm md:text-base pt-2 text-blue-500'>Designer</h1>
+        <br />
+        <p className='text-xs md:text-base'>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+        <br />
+        <p className='text-blue-500 text-xs md:text-base'>Things I enjoy designing:</p>
+        <ul className='pl-2 list-none'>
+          <li className='text-xs md:text-base'>UX</li>
+          <li className='text-xs md:text-base'>UI</li>
+          <li className='text-xs md:text-base'>Web</li>
+          <li className='text-xs md:text-base'>App</li>
+          <li className='text-xs md:text-base'>Logos</li>
+        </ul>
+        <br />
+        <br />
+        <h2 className='text-blue-500 text-xs md:text-base'>Design Tools:</h2>
+        <ul className='pl-2 list-none'>
+          <li className='text-xs md:text-base'>Figma</li>
+          <li className='text-xs md:text-base'>Font Awesome</li>
+          <li className='text-xs md:text-base'>Photoshop</li>
+          <li className='text-xs md:text-base'>Illustration</li>
+          <li className='text-xs md:text-base'>Webflow</li>
+        </ul>
+      </div>
   
-      <div className='Designer-section'>
-          <spam id='icon_education'><FaPhotoVideo/></spam>
-          <h1 id='education_head'>Designer</h1>
-          <br/>
-          <p id='education-p'>I value simple content <br/>structure, clean design <br/>patterns, and thoughtful<br/> interactions.</p>
-          <br/>
-          <p id='head-known'>Things I enjoy designing:</p>
-          <ul>
-          <li>UX</li>
-          <li>UI</li>
-          <li>Web</li>
-          <li>App</li>
-          <li>Logos</li>
-          </ul>
-           <br/>
-          <br/>
-          <h2 id='head-tool'>Desgn Tools:</h2>
-          <ul>
-            <li>Figma</li>
-            <li>Font Awesome</li>
-            <li>Photoshop</li>
-            <li>Illustration</li>
-            <li>Webflow</li>
-          </ul>
+      <div className=' w-full md:w-1/3  pl-2 flex flex-col items-center justify-center border-l-2 border-r-2 border-black'>
+        <span className='bg-blue-500 rounded-full p-2 h-8 md:h-10 text-white text-base md:text-lg'>
+          <FaDev />
+        </span>
+        <h1 className='text-sm md:text-base pt-2 text-blue-500'>Frontend Development</h1>
+        <br />
+        <p className='text-xs md:text-base'>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+        <br />
+        <p className='text-blue-500 text-xs md:text-base'>Languages I speak:</p>
+        <ul className= 'pl-2 list-none'>
+          <li className='text-xs md:text-base'>HTML</li>
+          <li className='text-xs md:text-base'>CSS</li>
+          <li className='text-xs md:text-base'>JS</li>
+          <li className='text-xs md:text-base'>React</li>
+          <li className='text-xs md:text-base'>Git</li>
+        </ul>
+        <br />
+        <br />
+        <h2 className='text-blue-500 text-xs md:text-base'>Dev Tools:</h2>
+        <ul className='pl-2 list-none'>
+          <li className='text-xs md:text-base'>Github</li>
+          <li className='text-xs md:text-base'>VScode</li>
+          <li className='text-xs md:text-base'>Codekit</li>
+          <li className='text-xs md:text-base'>Subline</li>
+          <li className='text-xs md:text-base'>Vercel</li>
+        </ul>
       </div>
-      <div className='frontend-section'>
-      <spam id='icon_education'><FaDev/></spam>
-          <h1 id='education_head'>Frontend Development</h1>
-          <br/>
-          <p id='education-p'>I like to code things from <br/>scratch, and enjoy bringing<br/> ideas to life in the browser.</p>
-          <br/>
-          <p id='head-known'>language I speak:</p>
-          <ul>
-          <li>HTML</li>
-            <li>CSS</li>
-            <li>JS</li>
-            <li>React</li>
-            <li>Git</li>
-          </ul>
-        
-          <br/>
-          <br/>
-          <h2 id='head-tool'>Dev Tools:</h2>
-          <ul>
-            <li>Github</li>
-            <li>VScode</li>
-            <li>Codekit</li>
-            <li>Subline</li>
-            <li>vercel</li>
-          </ul>
-      </div>
-      <div className='Designer-section'>
-      <spam id='icon_education'><FaDev/></spam>
-          <h1 id='education_head'>Backend Development</h1>
-          <br/>
-          <p id='education-p'>Practicing building backend projects. <br/>Keep on learning on new tech language.<br/> Crashing to tackkle down the problem raised everyday.</p>
-          <br/>
-          <p id='head-known'>language I speak:</p>
-          <ul>
-          <li>Node JS</li>
-            <li>Express JS</li>
-            <li>MongoDB</li>
-          </ul>
-          
-            
-          <br/>
-         
-          
+  
+      <div className='w-full md:w-1/3 pl-2 pr-2 flex flex-col items-center justify-center border-r-2 border-black'>
+        <span className='bg-blue-500 rounded-full p-2 h-8 md:h-10 text-white text-base md:text-lg'>
+          <FaDev />
+        </span>
+        <h1 className='text-sm md:text-base pt-2 text-blue-500'>Backend Development</h1>
+        <br />
+        <p className='text-xs md:text-base'>
+          Practicing building backend projects. Keep on learning new tech languages. Crashing to tackle down the problems
+          raised every day.
+        </p>
+        <br />
+        <p className='text-blue-500 text-xs md:text-base'>Languages I speak:</p>
+        <ul className='pl-2 list-none'>
+          <li className='text-xs md:text-base'>Node JS</li>
+          <li className='text-xs md:text-base'>Express JS</li>
+          <li className='text-xs md:text-base'>MongoDB</li>
+        </ul>
+        <br />
       </div>
     </div>
-    </div>
-   
-  )
+  </div>
+ )
 }
 
 export default Education

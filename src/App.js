@@ -6,7 +6,7 @@ import Home from './Pages/Home';
 function App() {
   return (
     <HashRouter >
-      <router basename='/Profile'>
+      <router >
           <Routes>
           <Route path="/" element={<Home />} />
                   </Routes>

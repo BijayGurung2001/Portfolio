@@ -1,7 +1,6 @@
 import React from 'react'
 import Projectdata from '../Assets/Projectdata'
 
-import {FaEye} from 'react-icons/fa'
 
 const Work = () => {
   return (

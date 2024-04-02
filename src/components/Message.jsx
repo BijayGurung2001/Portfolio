@@ -23,30 +23,30 @@ const SendEmail=()=>{
 };
 
   return (
-    <div className=' flex flex-row h-96 items-center justify-center bg-white'>
+    <div className=' flex flex-row h-96 pl-64 items-center justify-center bg-white'>
     <form onSubmit={SendEmail} className='form w-1/2 border-solid border-black'>
-      <h1 className='text-2xl mb-10' id='headline'>
+      <h1 className='text-2xl mb-10 md:text-2xl' id='headline'>
         Contact Me
       </h1>
       <div className='mb-3 flex flex-row'>
-        <label className='font text-lg' name='name'>
+        <label className='font text-2xl' name='name'>
           Full Name:
         </label>
-        <input type='text' name='name' className='ml-10 bg-gray-300' onChange={handleinput} />
+        <input type='text' name='name' className='ml-10 bg-gray-300 ' onChange={handleinput} />
       </div>
       <div className='mb-3 flex flex-row'>
-        <label className='font text-lg' name='email'>
+        <label className='font text-2xl' name='email'>
           Email:
         </label>
-        <input type='email' name='email' className='ml-20 bg-gray-300' onChange={handleinput} />
+        <input type='email' name='email' className='ml-24 bg-gray-300' onChange={handleinput} />
       </div>
       <div className='mb-3 flex flex-row'>
-        <label className='font text-lg' name='message'>
+        <label className='font text-2xl' name='message'>
           Message:
         </label>
         <textarea name='message' className='bg-gray-300 ml-12' onChange={handleinput} />
       </div>
-      <input type='submit' id='submit' className='bg-gray-500 pl-10 pr-10 ml-20 rounded-md hover:bg-slate-500 hover:text-white' />
+      <input type='submit' id='submit' className='bg-blue-800 p-3 ml-20 rounded-md hover:bg-blue-900 text-white md:text-2xl' />
     </form>
     <div className='content w-1/3 ml-10'>
       <img src={messagepic} id='messageimage' className='object-contain ' />

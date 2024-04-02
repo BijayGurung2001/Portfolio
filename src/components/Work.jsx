@@ -27,10 +27,8 @@ const Work = () => {
       ))}
     </div>
     <button id='button_icon' className='text-white bg-blue-800 border border-blue-800 rounded-full px-5 py-3 mt-8 pb-6 mb-10 hover:bg-blue-900'>
-      <span className='mr-2 pr-2'>
-        <FaEye />
-      </span>
-      <a href='https://github.com/BijayGurung2001' className='text-white hover:text-2xl'> See more on Projects</a>
+     
+      <a href='https://github.com/BijayGurung2001' className='text-white texy-base hover:text-xl'> See more on Projects</a>
      
     </button>
   </div>

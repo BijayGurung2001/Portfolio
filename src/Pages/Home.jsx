@@ -10,9 +10,9 @@ import Footer from '../components/Footer'
 const Home = () => {
   return (
     <div className='home flex flex-col justify-between'>
-      <p>hi</p>
-      <div className='intro'><Intro /></div>
-      <div className='Education '><Education /></div>
+   
+      <div className='intro h-96'><Intro /></div>
+      <div className='Education mt-96 '><Education /></div>
       <div className='Work mt-0'><Work /></div>
       <div className='Testimonial h-60vh pb-100'><Testimonial /></div>
       <div className='Message mt-0'><Message /></div>
